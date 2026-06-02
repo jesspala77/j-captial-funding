@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: #001f3f;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  background: #000;
+  color: #ffcc00;
+  padding: 1rem 0;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.nav a {
+  color: #ffcc00;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('https://example.com/luxury-background.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.cta-button {
+  background: #ffcc00;
+  color: #001f3f;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* Services Section */
+.services {
+  padding: 2rem 0;
+  background: #fff;
+  color: #001f3f;
+}
+
+.services .service-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.service-item {
+  background: #f6f6f6;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.portfolio {
+  padding: 2rem 0;
+  background: #f6f6f6;
+  color: #000;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.project-item img {
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.project-item h4 {
+  text-align: center;
+}
+
+.trust-bar {
+  padding: 2rem 0;
+  background: #001f3f;
+}
+
+.logos img {
+  margin: 0 1rem;
+}
